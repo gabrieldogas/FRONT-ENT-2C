@@ -1,0 +1,105 @@
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .minha-foto {
+        height: 150px;
+    }
+
+    .giba-texto {
+        font-size: 14px;
+    }
+
+    .navbar a {
+        padding: 10px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.minha-foto {
+    border-radius: 20%;
+    height: 350px;
+}
+
+.Sobre-mim {
+    margin-top: 20px;
+}
+
+.giba-texto {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#Finalização {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
